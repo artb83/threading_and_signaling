@@ -10,7 +10,7 @@
 
 #define BUFFER_SIZE 1024
 #define HEAD_MQ messageQueue
-#define NWORKERS 10
+#define NWORKERS 2
 
 typedef struct {
     char* messageBuff;
