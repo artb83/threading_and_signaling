@@ -1,5 +1,5 @@
-#ifndef SERVER_AESDSOCKET_H
-#define SERVER_AESDSOCKET_H
+#ifndef WORKERS_H
+#define WORKERS_H
 
 #include <pthread.h>
 #include <stdbool.h>
@@ -29,4 +29,4 @@ struct threads_queue_node_t{
 thread_data_t* allocAndInitThreadData(pthread_mutex_t* mutex, pthread_cond_t* condition, bool bWriter);
 
 
-#endif //SERVER_AESDSOCKET_H
+#endif //WORKERS_H
